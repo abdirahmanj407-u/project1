@@ -1,82 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>coffe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-
+  <body>
     <header>
-        <h2 class="logo">The Daily Brew</h2>
+      <h2 class="logo">The Daily Brew</h2>
 
-        <nav>
-            <a href="#">Story</a>
-            <a href="#">Menu</a>
-            <a href="#">Reviews</a>
-            <a href="#">FAQ</a>
-            <a href="#">Reserve</a>
-        </nav>
+      <nav>
+        <a href="#">Story</a>
+        <a href="#">Menu</a>
+        <a href="#">Reviews</a>
+        <a href="#">FAQ</a>
+        <a href="#">Reserve</a>
+      </nav>
     </header>
 
-
     <section class="hero">
+      <h1>Artisanal Coffee & Oven-Fresh Pastries</h1>
 
-        <h1>
-            Artisanal Coffee & Oven-Fresh Pastries
-        </h1>
+      <p>
+        Locally roasted organic beans and handcrafted sourdough baked every
+        morning.
+      </p>
 
-        <p>
-            Locally roasted organic beans and handcrafted
-            sourdough baked every morning.
-        </p>
-
-        <button>View Morning Menu</button>
-
+      <button>View Morning Menu</button>
     </section>
-    
 
     <section class="promise-section">
-        <h1>Our Craft Promise</h1>
+      <h1>Our Craft Promise</h1>
 
-        <div class="cards-container">
-
-            <div class="card">
-                <div class="icon">🌱</div>
-                <h2>Fair-Trade Beans</h2>
-                <p>
-                    Directly sourced from
-                    cooperative farms in Colombia
-                    and Ethiopia.
-                </p>
-            </div>
-
-            <div class="card">
-                <div class="icon">🥐</div>
-                <h2>Baked at 4:00 AM</h2>
-                <p>
-                    Every croissant and brioche is
-                    made from scratch each dawn.
-                </p>
-            </div>
-
-            <div class="card">
-                <div class="icon">☕</div>
-                <h2>Barista Mastered</h2>
-                <p>
-                    Trained coffee brewers dialed
-                    into water temperature and grind
-                    precision.
-                </p>
-            </div>
-
+      <div class="cards-container">
+        <div class="card">
+          <div class="icon">🌱</div>
+          <h2>Fair-Trade Beans</h2>
+          <p>
+            Directly sourced from cooperative farms in Colombia and Ethiopia.
+          </p>
         </div>
+
+        <div class="card">
+          <div class="icon">🥐</div>
+          <h2>Baked at 4:00 AM</h2>
+          <p>Every croissant and brioche is made from scratch each dawn.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">☕</div>
+          <h2>Barista Mastered</h2>
+          <p>
+            Trained coffee brewers dialed into water temperature and grind
+            precision.
+          </p>
+        </div>
+      </div>
     </section>
 
-</body>
+    <section class="preorder-section">
+      <h2>Pre-Order Pastry Box</h2>
 
+      <form class="preorder-form">
+        <input type="text" placeholder="Full Name" required />
+
+        <input type="tel" placeholder="Phone Number" required />
+
+        <textarea
+          placeholder="Order details (e.g. 2 Croissants, 1 Latte)"
+          required
+        ></textarea>
+
+        <button type="submit">Confirm Reservation</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 The Daily Brew Cafe. 124 Maple Street. Handcrafted daily.</p>
+    </footer>
+  </body>
 </html>
