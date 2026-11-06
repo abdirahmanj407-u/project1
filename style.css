@@ -148,7 +148,7 @@
 
    .favorites {
        width: 100%;
-       min-height: 50vh;
+       min-height: 30vh;
        padding: 40px 3.5%;
        background-color: #FAF5F0;
    }
